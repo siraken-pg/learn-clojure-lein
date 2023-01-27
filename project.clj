@@ -23,4 +23,5 @@
   :plugins [[lein-ring "0.12.6"]]
   :ring {:handler ring-test.handler/app}
   :repl-options {:init-ns example.core}
+  :java-source-paths ["src/my_java"]
   :main example.core)
